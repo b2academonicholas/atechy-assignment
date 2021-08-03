@@ -1,0 +1,141 @@
+﻿body{
+    background-image: url(../img/bg2.jpg);
+}
+
+
+
+/*Header*/
+
+#header-nav {
+    background-color: white;
+    border-radius: 0;
+    border: 5px; 
+}
+
+#nav-list a {
+        text-align: center;
+    }
+
+    #nav-list a:hover {
+            background:wheat;
+        }
+
+        #nav-list a span {
+            font-size: 1.8em;
+        } 
+
+
+        .navbar-brand {
+            padding-top: 10px;
+            height: 5px;
+        }
+    
+            }
+    
+           
+    
+            .navbar-brand p { 
+                font-size: .6em;
+                margin-top: 5px;
+            }
+    
+               
+        #collapsable-nav a {
+            font-size: 1.2em;
+        }
+
+/**form**/   
+input[type=text],select{
+    width: 90%;
+    padding: 12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid black;
+    border-radius:4px;
+    box-sizing:border-box;
+    }
+
+input[type=submit] {
+    width: 90px;
+    background-color: tomato;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color:brown;
+
+  }
+  
+ 
+
+  
+div { 
+    position: relative;   
+    border-radius: 5px;
+    padding: 20px;
+  } 
+            
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    
+form{
+    width: 90%;
+}
+
+}
+  
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    }
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    }
+    
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
+footer{
+    color: black;
+}
+   
+
+    
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
